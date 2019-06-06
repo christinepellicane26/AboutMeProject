@@ -1,65 +1,88 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Lato&display=swap');
-
-.container {
-  max-width: 800px;
-  border: 1px solid red;
-  margin: 0 auto;
-}
-
-.header {
+.person {
+  background-image: url("https://images.unsplash.com/photo-1470164971321-eb5ac2c35f2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px dotted black;
+  background-color: beige;
+  font-size: 30px;
   text-align: center;
 }
 
-h1, h2, h3 {
-  font-family: 'Anton';
+#may {
+  border: 3px solid blue;
+  background-color: beige;
+  font-family: cursive;
+}
+#june {
+  border: 3px solid brown;
+  background-color: orange;
+  font-weight: bold;
 }
 
-.section {
-  border: 1px solid green;
-  padding: 20px;
+#july {
+  border: 3px solid red;
+  font-style: italic;
+  background-color: yellow;
 }
 
-#welcome {
-  font-family: 'Lato';
+span.highlight {
+  background-color: orange;
+  font-family: "Permanent Marker", cursive;
 }
 
-p#blurb {
-  font-size: 24px;
+h1 {
+  font-color: green;
+  font-family: "Pacifico", cursive;
 }
 
-.exp_item {
-  margin: 10px 20px;
-
+h2 {
+  color: grey;
+  font-family: "Boogaloo", cursive;
+  background-color: pink;
 }
 
-
-.navigation {
-height: 50px;
-display:flex;
-justify-content:center;
+.hi {
+  color: purple;
+  font-style: oblique;
 }
 
-.navigation ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-
+ul {
+  color: pink;
+  font-size: 30px;
+  font-style: italic;
+  list-style: square;
+}
+ol {
+  color: purple;
 }
 
-.navigation li {
-  display: inline;
-  padding: 5px;
-  margin-left: 50px;
-  border: 1px solid blue;
+.Lists {
+  background-color: beige;
 }
 
-
-#projects ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.foods {
+  border: 3px solid green;
 }
 
-.project_list  {
-  border: 1px solid black;
+.drinks {
+  font-variant: small-caps;
+  font-weight: bold;
+  border: 3px solid brown;
+}
+
+.places {
+  border: 3px solid blue;
+}
+
+.hobbies {
+  border: 3px solid purple;
+}
+
+.sidebar_title {
+  text-align: center;
+}
+
+.sidebar_ul {
+  border-style: dashed;
+  background-color: grey;
 }
