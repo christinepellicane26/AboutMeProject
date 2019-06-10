@@ -1,0 +1,216 @@
+.person {
+  background-image: url("https://images.unsplash.com/photo-1470164971321-eb5ac2c35f2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px dotted black;
+  background-color: beige;
+  font-size: 30px;
+  text-align: center;
+}
+.p {
+  font-size: 5px
+}
+
+#may {
+  border: 3px solid blue;
+  background-color: beige;
+  font-family: cursive;
+}
+#june {
+  border: 3px solid brown;
+  background-color: orange;
+  font-weight: bold;
+}
+
+#july {
+  border: 3px solid red;
+  font-style: italic;
+  background-color: yellow;
+}
+
+span.highlight {
+  background-color: orange;
+  font-family: "Permanent Marker", cursive;
+}
+
+h1 {
+  font-color: green;
+  font-family: "Pacifico", cursive;
+}
+
+h2 {
+  color: grey;
+  font-family: "Boogaloo", cursive;
+  background-color: pink;
+}
+
+
+ul {
+  color: pink;
+  font-size: 30px;
+  font-style: italic;
+  list-style: square;
+}
+ol {
+  color: purple;
+}
+
+.Lists {
+  background-color: beige;
+}
+
+.foods {
+  border: 3px solid green;
+}
+
+.drinks {
+  font-variant: small-caps;
+  font-weight: bold;
+  border: 3px solid brown;
+}
+
+.places {
+  border: 3px solid blue;
+}
+
+.hobbies {
+  border: 3px solid purple;
+}
+
+.sidebar_title {
+  text-align: center;
+}
+
+.sidebar_ul {
+  border-style: dashed;
+  background-color: grey;
+}
+
+/* page 2 image boxes */
+body{
+  margin : 100px;
+}
+.container{
+background-color: beige
+}
+
+.test1,.test2,.test3,.test4{
+  display:inline-block;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  margin-top: 10px;
+
+}
+
+/* #demo {
+-moz-transform: rotate(356deg);
+-webkit-transform: rotate(356deg);
+-o-transform: rotate(356deg);
+-ms-transform: rotate(356deg);
+transform: rotate(356deg);
+} */
+/* div.row4  */
+}
+
+
+/* Page 3 */
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Lato&display=swap');
+
+.container {
+  /* background-image: img("copperpatina1.JPG"); */
+  max-width: 800px;
+  border: 1px solid red;
+  margin: 0 auto;
+
+}
+
+
+#myphoto {width: 25%; height: 25%;
+  border: 2px solid black;
+}
+
+img#myphoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+.header {
+  text-align: center;
+background-image: url("https://www.grandbrass.com/catalog/items/topabrbgv-8oz.jpg");
+}
+
+h1, h2, h3 {
+  font-family: 'Anton';
+}
+
+.section {
+  border: 1px solid green;
+  padding: 20px;
+}
+
+
+
+
+
+#welcome {
+  font-family: 'Lato';
+}
+
+p#blurb {
+  font-size: 24px;
+}
+
+.exp_item {
+  margin: 10px 20px;
+
+}
+
+.edu_item {
+  margin: 10px 20px;
+
+}
+
+.navigation {
+height: 100px;
+
+}
+/* for background https://www.grandbrass.com/catalog/items/topabrbgv-8oz.jpg */
+
+.navigation ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+
+}
+
+.navigation li {
+  display: inline;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.educationlist {
+  background-image: url("https://www.grandbrass.com/catalog/items/topabrbgv-8oz.jpg");
+
+}
+
+.project_list  {
+  border: 1px solid black;
+}
+
+#projects ul {
+  background-image: url("https://www.grandbrass.com/catalog/items/topabrbgv-8oz.jpg");
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project_list  {
+  border: 1px solid black;
+}
